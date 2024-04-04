@@ -1,0 +1,22 @@
+<html>
+   <body>
+      <form action = "{{ url_for('upload_file') }}" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>   
+        <img src="{{ input_img }}" class="image" />
+        <img src="{{ segmented_img }}">
+   </body>
+</html>
+
+<!-- <html>
+   <body>
+      <form action = "{{ url_for('upload_file') }}" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>   
+      <img src= "data:image/png;base64;{{ img }}" >
+   </body>
+</html> -->
