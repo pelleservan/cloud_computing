@@ -31,6 +31,12 @@ COCO_INSTANCE_CATEGORY_NAMES = [
     'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'
 ]
 
+# model_url = 'https://download.pytorch.org/models/maskrcnn_resnet50_fpn_coco-bf2d0c1e.pth'
+# model_path = 'maskrcnn_resnet50_fpn_coco.pth'
+
+# # Download the model
+# torch.hub.download_url_to_file(model_url, model_path)
+
 MODEL_PATH = "model/maskrcnn_resnet50_fpn_coco.pth"
 FULL_MODEL_PATH = os.path.join(current_path, MODEL_PATH)
 
